@@ -1,0 +1,42 @@
+.border{
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-btw{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+.rounded{
+    border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
+}
+.m-1{
+    margin-left: 1em;
+}
