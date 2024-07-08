@@ -564,7 +564,7 @@ justify-content: center;
 @media (max-width:430px) {
     .playbar{
         width: 97vw;
-        height: 7em;
+        height: 10em;
     }
     .seekbar{
         margin-bottom: 1.5em;
