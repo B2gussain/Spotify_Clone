@@ -430,33 +430,7 @@ justify-content: center;
 /*********************************** Tablets Responsive*************************** */
 
 @media (max-width:1280px) {
-    .cardContainer{
-    overflow-y: scroll;
-    display: flex;
-    flex-wrap: wrap;
-    height: 50vh;
-    /* background-color: #19ee63; */
-}
-.cardContainer::-webkit-scrollbar{
-    display: none;
-
-}
-    .playbar{
-    position: absolute;
-    bottom: 0;
-    background-color: #19ee63;
-    width: 98.5%;
-    padding: 6px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    height:10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    
     .library{
         height:71vh;
     }
@@ -567,7 +541,7 @@ justify-content: center;
         height: 10em;
     }
     .seekbar{
-        margin-bottom: 1.5em;
+        margin-bottom: 2.5em;
     }
     .cardContainer{
         display: flex;
@@ -576,7 +550,7 @@ justify-content: center;
         justify-content: center;
         /* margin-left: 0.3em; */
         overflow-y: scroll;
-        height:50vh;
+        height:51vh;
         overflow-x:scroll;
         /* background-color: #19ee63; */
     }
