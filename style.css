@@ -434,7 +434,7 @@ justify-content: center;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
-    height: 50vh;
+    height: 52vh;
     /* background-color: #19ee63; */
 }
 .cardContainer::-webkit-scrollbar{
@@ -452,7 +452,7 @@ justify-content: center;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    height:7em;
+    height:10em;
     display: flex;
     flex-direction: column;
     align-items: center;
