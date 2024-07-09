@@ -35,7 +35,7 @@ function secondsToMinutesSeconds(seconds) {
 // get songs function
 async function getsongs(folder) {
   present_folder = folder;
-  let a = await fetch(`https://b2gussain.github.io/spotify_clone/${folder}/`);
+  let a = await fetch(`/spotify_clone/${folder}/`);
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -94,7 +94,7 @@ const playMusic = (track, pause = false) => {
 };
 
 async function displayAlbume() {
-  let a = await fetch(`https://b2gussain.github.io/spotify_clone/songs/`);
+  let a = await fetch(`/spotify_clone/songs/`);
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -103,7 +103,7 @@ async function displayAlbume() {
   let array = Array.from(anchor);
   for (let index = 0; index < array.length; index++) {
     const e = array[index];
-    if (e.href.includes(`/songs`)) {
+    if (e.href.includes(`/songs`) && !e.href.includes(".htaccess")) {
       let folder = e.href.split("/").slice(-1)[0];
       // console.log(folder)
     }
